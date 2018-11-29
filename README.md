@@ -131,4 +131,4 @@ You can check the installed version by typing: `fastai version`
 
 ## Help
 
-Simply type `fastai help` or create [an issue](https://github.com/arunoda/fastai-shell).
+Simply type `fastai help` or create [an issue](https://github.com/toalmj/fastai-shell).

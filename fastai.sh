@@ -166,7 +166,7 @@ create_network () {
   if [[ "$has_network" == "0" ]]; then
     gcloud compute --project=$DEVSHELL_PROJECT_ID networks create fastai-net --subnet-mode=auto
     gcloud compute --project=$DEVSHELL_PROJECT_ID firewall-rules create allow-all-fastai-net --direction=INGRESS --priority=1000 --network=fastai-net --action=ALLOW --rules=all --source-ranges=0.0.0.0/0
-  fi 
+  fi
 }
 
 delete_network () {
@@ -286,7 +286,7 @@ create () {
   wait_for_ssh "fastai-boot-1"
 
   echo "Setting up the instance"
-  setup_script="https://raw.githubusercontent.com/arunoda/fastai-shell/master/setup-gce.sh?__ts=$RANDOM"
+  setup_script="https://raw.githubusercontent.com/toalmj/fastai-shell/master/setup-gce.sh?__ts=$RANDOM"
   gcloud compute --project $DEVSHELL_PROJECT_ID ssh --zone $current_zone "fastai-boot-1" -- "curl $setup_script > /tmp/setup.sh && bash /tmp/setup.sh"
 
   echo "Deleting the boot instance"
@@ -413,7 +413,7 @@ version () {
 help() {
   echo ""
   echo "fastai-shell"
-  echo "visit: https://github.com/arunoda/fastai-shell"
+  echo "visit: https://github.com/toalmj/fastai-shell"
   echo "----------------------------------------------"
   echo ""
   echo "fastai create                 - create a fastai boot disk"
