@@ -30,7 +30,7 @@ cat > /tmp/update-fastai.sh <<EOL
 /opt/anaconda3/bin/conda update -y -c pytorch pytorch-nightly cuda92
 /opt/anaconda3/bin/conda update -y -c fastai torchvision-nightly fastai
 
-cd /home/jupyter/tutorials/fastai/course-v3
+cd /home/jupyter/tutorials/fastai/fastai
 git checkout .
 git checkout master
 git pull origin master
@@ -41,4 +41,4 @@ sudo chmod +x /home/jupyter/update-fastai.sh
 
 ## Update fastai
 sudo /home/jupyter/update-fastai.sh
-sudo chown -R jupyter /home/jupyter/tutorials/fastai/course-v3
+sudo chown -R jupyter /home/jupyter/tutorials/fastai/fastai
