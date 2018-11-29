@@ -21,7 +21,7 @@ source activate fastai-v1
 conda install -y -c pytorch pytorch-nightly cuda92
 conda install -y -c fastai torchvision-nightly fastai
 conda install -y ipykernel
-
+bash deps.sh
 python -m ipykernel install --user --name fastai-v1 --display-name "fastai-v1"
 
 git clone https://github.com/fastai/fastai.git
