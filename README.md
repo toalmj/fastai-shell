@@ -25,7 +25,7 @@ Go to your project and open the Google Cloud shell as shown below:
 Then run the following commands:
 
 ```
-curl -L https://git.io/fpeMb | bash
+curl -L https://git.io/fpwgT | bash
 source ~/.bashrc
 ```
 
