@@ -27,7 +27,7 @@ source activate fastai-v1
 #conda install -c pytorch pytorch-nightly cuda92
 #conda install -c fastai torchvision-nightly
 #conda install -c fastai fastai
-sudo apt install -y python-pip
+#sudo apt install -y python-pip
 pip install opencv-python
 pip install pandas_summary
 pip install torchtext
