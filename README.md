@@ -4,6 +4,14 @@ A workflow to setup and use [fastai](https://github.com/fastai/fastai) on Google
 
 [![How to use fastai-shell](https://user-images.githubusercontent.com/50838/48072112-d3240d00-e201-11e8-860d-22bc5a9697ee.png)](https://www.youtube.com/watch?v=ui_y60ZtE5c)
 
+Difference between this repo and [arunoda/fastai-shell](https://github.com/arunoda/fastai-shell)
+* Setup for Deep learning for coders rather than course-v3
+* Installs some dependencies
+* Downloads dataset.
+* So far tested on lesson 1.
+
+
+
 Here is a set of features `fastai-shell` gives you:
 
 * Use [preemptible](https://cloud.google.com/compute/pricing#gpus) instances to get the minimum price possible
