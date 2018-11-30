@@ -27,22 +27,22 @@ source activate fastai-v1
 #conda install -c pytorch pytorch-nightly cuda92
 #conda install -c fastai torchvision-nightly
 #conda install -c fastai fastai
-
-conda install -y --channel https://conda.anaconda.org/menpo opencv3
-conda install -yl pandas_summary
-conda install -y torchtext
-conda install -y feather-format
-conda install -y jupyter_contrib_nbextensions
-conda install -y plotnine
-conda install -y docrepr
-conda install -y awscli
-conda install -y kaggle-cli
-conda install -y pdpbox
-conda install -y seaborn
-conda install -y isoweek
-conda install -y graphviz
-conda install -y sklearn_pandas
-conda install -y ipywidgets
+sudo apt install -y python-pip
+pip install opencv-python
+pip install pandas_summary
+pip install torchtext
+pip install feather-format
+pip install jupyter_contrib_nbextensions
+pip install plotnine
+pip install docrepr
+pip install awscli
+pip install kaggle-cli
+pip install pdpbox
+pip install seaborn
+pip install isoweek
+pip install graphviz
+pip install sklearn_pandas
+pip install ipywidgets
 python -m ipykernel install --user --name fastai-v1 --display-name "fastai-v1"
 
 git clone https://github.com/fastai/fastai.git
