@@ -14,19 +14,19 @@ set -e
 # source ~/.bashrc has no effect here: https://stackoverflow.com/a/43660876/457224
 export PATH="$HOME/anaconda3/bin:$PATH"
 
-conda create -y --name fastai-v1 python=3.7
+#conda create -y --name fastai-v1 python=3.7
 
 source activate fastai-v1
 
-conda install -y -c pytorch pytorch-nightly cuda92
-conda install -y -c fastai torchvision-nightly fastai
-conda install -y ipykernel
-conda install -y bcolz
-conda install -y mkl=2018
-conda install -y pytorch torchvision -c pytorch
-conda install -c pytorch pytorch-nightly cuda92
-conda install -c fastai torchvision-nightly
-conda install -c fastai fastai
+#conda install -y -c pytorch pytorch-nightly cuda92
+#conda install -y -c fastai torchvision-nightly fastai
+#conda install -y ipykernel
+#conda install -y bcolz
+#conda install -y mkl=2018
+#conda install -y pytorch torchvision -c pytorch
+#conda install -c pytorch pytorch-nightly cuda92
+#conda install -c fastai torchvision-nightly
+#conda install -c fastai fastai
 sudo apt install -y python-pip
 pip install opencv-python
 pip install pandas_summary
