@@ -36,7 +36,7 @@ pip install jupyter_contrib_nbextensions
 pip install plotnine
 pip install docrepr
 pip install awscli
-pip install kaggle-cli
+#pip install kaggle-cli
 pip install pdpbox
 pip install seaborn
 pip install isoweek
