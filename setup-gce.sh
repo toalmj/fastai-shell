@@ -14,7 +14,7 @@ set -e
 # source ~/.bashrc has no effect here: https://stackoverflow.com/a/43660876/457224
 export PATH="$HOME/anaconda3/bin:$PATH"
 
-#conda create -y --name fastai-v1 python=3.7
+conda create -y --name fastai-v1 python=3.7
 
 source activate fastai-v1
 
