@@ -46,6 +46,9 @@ pip install ipywidgets
 python -m ipykernel install --user --name fastai-v1 --display-name "fastai-v1"
 
 git clone https://github.com/fastai/fastai.git
+sudo apt install -y unzip
+wget http://files.fast.ai/data/dogscats.zip
+unzip dogscats.zip -d data
 
 ## Install the start script
 cat > /tmp/jupyter.service <<EOL
