@@ -18,15 +18,15 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 
 source activate fastai-v1
 
-#conda install -y -c pytorch pytorch-nightly cuda92
-#conda install -y -c fastai torchvision-nightly fastai
-#conda install -y ipykernel
-#conda install -y bcolz
-#conda install -y mkl=2018
-#conda install -y pytorch torchvision -c pytorch
-#conda install -c pytorch pytorch-nightly cuda92
-#conda install -c fastai torchvision-nightly
-#conda install -c fastai fastai
+conda install -y -c pytorch pytorch-nightly cuda92
+conda install -y -c fastai torchvision-nightly fastai
+conda install -y ipykernel
+conda install -y bcolz
+conda install -y mkl=2018
+conda install -y pytorch torchvision -c pytorch
+conda install -c pytorch pytorch-nightly cuda92
+conda install -c fastai torchvision-nightly
+conda install -c fastai fastai
 #sudo apt install -y python-pip
 pip install opencv-python
 pip install pandas_summary
